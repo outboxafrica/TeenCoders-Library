@@ -1,0 +1,16 @@
+.Logo{
+    color:orange;
+}
+header{
+background-image: url(Images/img_1.jpeg);
+background-repeat: no-repeat;
+background-size: cover; 
+height: 300px;
+}
+.navigation{
+    color: white;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
