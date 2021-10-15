@@ -7,11 +7,13 @@ background-repeat: no-repeat;
 background-size: cover; 
 height: 300px;
 }
+
 .navigation{
     color: blue;
     display: flex;
     justify-content: center;
 }
+
 li{
     color: black;
     font-size: 30px;
