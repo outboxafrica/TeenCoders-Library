@@ -8,9 +8,49 @@ background-size: cover;
 height: 300px;
 }
 .navigation{
-    color: white;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+li{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid red;
+    list-style-type: none; 
 }
 .navigation li a{
     text-decoration: none;
     color: white;
+}
+
+#Paragraph{
+    border: 10px double blue;
+    
+    padding-top: 50px;
+    /* margin: 500px; */
+    margin-bottom: 100px;
+}
+
+.first_anime{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    right: 300px;
+    bottom: 100px;
+    border: 2px solid yellow;
+}
+
+.forth_anime{
+    display: grid;
+    place-items: center;
+    border: 2px solid green;
+}
+
+.last_items{
+    /* display: grid;*/
+    grid-template-columns: repeat(2, 100px 1fr) 100px;
+    display: grid;
+    place-items: center;
 }
