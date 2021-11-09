@@ -11,7 +11,7 @@ height: 300px;
 .navigation{
     color: blue;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 li{
